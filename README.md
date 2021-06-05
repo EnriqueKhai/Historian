@@ -31,6 +31,7 @@ plotting (using Excel, Pandas, etc).
 
 ```
 git clone https://github.com/EnriqueKhai/Historian.git
+cd Historian
 pip3 install -r requirements.txt
 python3 historian.py
 ```
