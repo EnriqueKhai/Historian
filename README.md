@@ -22,6 +22,9 @@ Points Earned  | 1.0 |  -  |  -  | 5.0 |  -  |  -  | 3.2 |  -  |
 Cum. Score     | 1.0 | 1.0 | 1.0 | 6.0 | 6.0 | 6.0 | 9.2 | 9.2 |
 ```
 
+As the final step, Historian will save the user's timeline as a `.csv` file for
+plotting (using Excel, Pandas, etc).
+
 # Installation
 
 ```
