@@ -15,18 +15,18 @@ Once done, the cumulative total (or the user's 'timeline') can be reconstructed 
 calculating the running total. Suppose the user earns 1.0, 5.0 and 3.2 points on
 days 1, 4 and 7. The reconstructed timeline should resemble this:
 
-'''
+```
 Days           |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |
 ----------------------------------------------------------------
 Points Earned  | 1.0 |  -  |  -  | 5.0 |  -  |  -  | 3.2 |  -  |
 Cum. Score     | 1.0 | 1.0 | 1.0 | 6.0 | 6.0 | 6.0 | 9.2 | 9.2 |
-'''
+```
 
 
 # Installation
 
-'''
+```
 git clone https://github.com/EnriqueKhai/Historian.git
 pip3 install -r requirements.txt
 python3 historian.py
-'''
+```
