@@ -1,6 +1,7 @@
 # Standard Library.
 from getpass import getpass
 from datetime import datetime
+from time import sleep
 import csv
 
 # Custom modules.
@@ -25,6 +26,7 @@ handle, timeline = kattis.scrape_user(username, password, sites)
 
 # Write results to a CSV file.
 print(f'Preparing {handle}.csv...', end='', flush=True)
+sleep(0.5)
 
 with open(f'{handle}.csv', 'w') as fd:
     writer = csv.writer(fd)

@@ -3,7 +3,7 @@ import requests
 from tqdm import tqdm
 from datetime import datetime
 from itertools import count
-from typing import List
+from time import sleep
 
 # Custom modules.
 from packages import html_parser
@@ -14,7 +14,7 @@ LOGIN_PAGE    = 'https://open.kattis.com/login/email?'
 PROBLEMS_PAGE = 'https://open.kattis.com/problems'
 
 def login_form(CSRF_token: str, username: str, password: str):
-
+    """Fill up Kattis' login form and return it as a JSON object."""
     login_json = {
         'csrf_token': CSRF_token,
         'user'      : username,
@@ -24,8 +24,34 @@ def login_form(CSRF_token: str, username: str, password: str):
 
     return login_json
 
-def scrape_user(username: str, password: str, sites: List[str]):
+def scrape_user(username: str, password: str, sites: []) -> []:
+    """Scrapes the user's Kattis account and returns his/her 'timeline'.
 
+    Historian logs into Kattis on behalf of the user and determines
+    which questions have been solved. From there, the first accepted
+    solution for each of those questions is identified, and its date
+    recorded.
+
+    With a collection of problems and the dates on which they were
+    first solved, Historian reconstructs the user's score history by
+    crediting those dates with a score equal to the sum of the
+    difficulties of the problems solved on those dates. Knowing how
+    many points the user earned across these various dates, the user's
+    score history is simply a running sum.
+    
+    Assuming a certain user earns 1.0, 5.0 and 3.2 points on days 1, 4
+    and 7, his/her corresponding cumulative score will be:
+
+        day           |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |
+        ---------------------------------------------------------------
+        points earned | 1.0 |  -  |  -  | 5.0 |  -  |  -  | 3.2 |  -  |
+        cum. score    | 1.0 | 1.0 | 1.0 | 6.0 | 6.0 | 6.0 | 9.2 | 9.2 |
+
+    This cum. score is returned as the user's 'timeline' or score
+    change over time.
+
+    Note that all users start with 1.0 point upon sign up.
+    """
     # Begin new web session.
     s = requests.Session()
 
@@ -131,6 +157,7 @@ def scrape_user(username: str, password: str, sites: List[str]):
 
     # Reconstruct user's score over time.
     print('Reconstructing user\'s score history...', end='', flush=True)
+    sleep(0.5)
 
     cum_timeline = []
     cum_score = 1
