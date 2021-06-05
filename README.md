@@ -31,5 +31,6 @@ python3 historian.py
 ```
 # For non-NUS users
 
-Replace `'https://nus.kattis.com'` in `sites` (`historian.py`, line 21) with your schools
-Kattis site or remove it altogether.
+Replace `'https://nus.kattis.com'` in `sites` (`historian.py`, line 21) with your school's
+Kattis site or remove it altogether. This ensures that Historian knows where to scrape your
+submissions from.
