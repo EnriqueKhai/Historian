@@ -1,7 +1,9 @@
 # Historian
 
 Historian is a Kattis webscraper built to reconstruct a user's score history
-over time. Here's how it works.
+over time. For a video demo, click here.
+
+Here's how it works.
 
 Historian will log into Kattis on behalf of its user and determine which problems
 have been solved so far. From there, it will locate each problems' first accepted
