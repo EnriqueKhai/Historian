@@ -1,7 +1,7 @@
 # Historian
 
 Historian is a Kattis webscraper built to reconstruct a user's score history
-over time. For a video demo, click here.
+over time. For a video demo, click [here](https://www.loom.com/share/a97cd7d9ac94473aa41317424e5bfd7e).
 
 Otherwise, here's how it works.
 
