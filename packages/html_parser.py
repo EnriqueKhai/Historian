@@ -108,7 +108,13 @@ def extract_first_solved(html: str) -> (datetime, int):
             date = cols[1].text.strip()
             date = date.split(' ')[0]
 
-            first_solve = datetime.strptime(date, '%Y-%m-%d')
+            try:
+                first_solve = datetime.strptime(date, '%Y-%m-%d')
+
+            # Problems solved on the current day have the format 'hh:mm:ss'.
+            except ValueError:
+                dt = datetime.today()
+                first_solve = datetime(dt.year, dt.month, dt.day)
 
             return first_solve, len(rows)
 
