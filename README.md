@@ -1,4 +1,13 @@
-# Historian
+# Introduction
+
+[Kattis](https://open.kattis.com/) is an Online Judge platform where users can
+create accounts, solve algorithmic problems and earn points to climb the ranks.
+That said, Kattis has neither an inbuilt feature nor an API that allows users to
+visualise their score change (i.e. progress) over time.
+
+It is this problem that Historian attempts to solve.
+
+# Overview
 
 Historian is a Kattis webscraper built to reconstruct a user's score history
 over time. For a video demo, click [here](https://www.loom.com/share/a97cd7d9ac94473aa41317424e5bfd7e).
@@ -24,8 +33,10 @@ Points Earned  | 1.0 |  -  |  -  | 5.0 |  -  |  -  | 3.2 |  -  |
 Cum. Score     | 1.0 | 1.0 | 1.0 | 6.0 | 6.0 | 6.0 | 9.2 | 9.2 |
 ```
 
-As the final step, Historian will save the user's timeline as a `.csv` file for
-plotting (using Excel, Pandas, etc).
+As the final step, Historian will save the user's timeline as a `.csv` file. This
+allows users to plot a graph like this:
+
+![image](https://user-images.githubusercontent.com/42400406/120999366-9ce50a80-c7bb-11eb-8a10-e8c8be1a34cf.png)
 
 # Installation
 
