@@ -47,7 +47,7 @@ submissions from.
 18   # Locations to scrape user submissions.
 19   sites = [
 20       'https://open.kattis.com',
-21       'https://nus.kattis.com'                # replace this line!
+21       'https://nus.kattis.com'       # <------- replace this line!
 22   ]
 23 
 24   # Scrape all problems solved.
