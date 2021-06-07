@@ -22,7 +22,7 @@ Historian then credits those problem's difficulties (as a score) to those dates,
 effectively backdating the user's ACs and determining the total number of points
 earned on those dates.
 
-Once done, the cumulative total (or the user's 'timeline') can be reconstructed by
+Once done, the cumulative total (or the user's *timeline*) can be reconstructed by
 computing a running sum. Suppose the user earns 1.0, 5.0 and 3.2 points on days 1,
 4 and 7 respectively. The reconstructed timeline will then be:
 
