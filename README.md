@@ -40,3 +40,16 @@ python3 historian.py
 Replace `'https://nus.kattis.com'` in `sites` (`historian.py`, line 21) with your school's
 Kattis site or remove it altogether. This ensures that Historian knows where to scrape your
 submissions from.
+
+```Python3
+16   print(flush=True)
+17
+18   # Locations to scrape user submissions.
+19   sites = [
+20       'https://open.kattis.com',
+21       'https://nus.kattis.com'
+22   ]
+23 
+24   # Scrape all problems solved.
+25   handle, timeline = kattis.scrape_user(username, password, sites)
+```
