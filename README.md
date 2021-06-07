@@ -34,7 +34,7 @@ Cum. Score     | 1.0 |  -  |  -  | 6.0 |  -  |  -  | 9.2 |  -  |
 ```
 
 As the final step, Historian will save the user's *timeline* as a `.csv` file. This
-allows users to plot graphs like this:
+allows users to plot (using Excel, Pandas, etc) graphs like this:
 
 ![image](https://user-images.githubusercontent.com/42400406/120999366-9ce50a80-c7bb-11eb-8a10-e8c8be1a34cf.png)
 
