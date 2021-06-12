@@ -1,11 +1,13 @@
 # Introduction
 
 [Kattis](https://open.kattis.com/) is an Online Judge platform where users can
-create accounts, solve algorithmic problems and earn points to climb the ranks.
+create an account, solve algorithmic problems and earn points to climb the ranks.
 That said, Kattis has neither an inbuilt feature nor an API that allows users to
 visualise their score change (i.e. progress) over time.
 
 It is this problem that Historian attempts to solve.
+
+![image](https://user-images.githubusercontent.com/42400406/121766091-2c0a6d80-cb82-11eb-8cdb-ca9970ab69b1.png)
 
 # Overview
 
