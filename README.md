@@ -1,3 +1,10 @@
+# Table of Contents
+
+- [Introduction](#introduction)
+- [Overview](#overview)
+- [Installation](#installation)
+- [For non-NUS users](#for-non-nus-users)
+
 # Introduction
 
 [Kattis](https://open.kattis.com/) is an Online Judge platform where users can
