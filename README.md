@@ -61,7 +61,8 @@ Upon successful scraping, a `<kattis handle>.csv` file will be written (`giraffe
 ![image](https://user-images.githubusercontent.com/42400406/121766983-11d38e00-cb88-11eb-9d85-eaf05145f09d.png)
 
 As you can see, its takes 6 minutes and 53 seconds to scrape 421 problems. The program run time
-is expected to scale linearly with this baseline ratio of 1 problem per second.
+is expected to scale linearly with this baseline rate of 1 problem per second. Users who have
+solved upwards of 800 problems can expect to > 14 minutes.
 
 # For non-NUS users
 
