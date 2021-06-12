@@ -55,6 +55,14 @@ cd Historian
 pip3 install -r requirements.txt
 python3 historian.py
 ```
+
+Upon successful scraping, a `<kattis handle>.csv` file will be written (`giraffe6` is my moniker).
+
+![image](https://user-images.githubusercontent.com/42400406/121766719-adfc9580-cb86-11eb-893c-dd15daa43b95.png)
+
+As you can see, its takes 6 minutes and 53 seconds to scrape 421 problems. The program run time
+is expected to scale linearly with this baseline ratio of 1 problem per second.
+
 # For non-NUS users
 
 Replace `'https://nus.kattis.com'` in `sites[]` (`historian.py`, line 21) with your own school's
