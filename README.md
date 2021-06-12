@@ -7,7 +7,7 @@
 
 # Introduction
 
-[Kattis](https://open.kattis.com/) is an Online Judge platform where users can
+[Kattis](https://open.kattis.com/) is an *Online Judge* platform where users can
 create an account, solve algorithmic problems and earn points to climb the ranks.
 That said, Kattis has neither an inbuilt feature nor an API that allows users to
 visualise their score change (i.e. progress) over time.
