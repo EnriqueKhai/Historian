@@ -7,12 +7,12 @@ visualise their score change (i.e. progress) over time.
 
 It is this problem that Historian attempts to solve.
 
-![image](https://user-images.githubusercontent.com/42400406/121766091-2c0a6d80-cb82-11eb-8cdb-ca9970ab69b1.png)
-
 # Overview
 
-Historian is a Kattis webscraper built to reconstruct a user's score history
+Historian is a Kattis webscraper built to **reconstruct a user's score history**
 over time. For a video demo, click [here](https://www.loom.com/share/a97cd7d9ac94473aa41317424e5bfd7e).
+
+![image](https://user-images.githubusercontent.com/42400406/121766091-2c0a6d80-cb82-11eb-8cdb-ca9970ab69b1.png)
 
 Otherwise, here's how it works.
 
