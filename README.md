@@ -58,7 +58,7 @@ python3 historian.py
 
 Upon successful scraping, a `<kattis handle>.csv` file will be written (`giraffe6` is my moniker).
 
-![image](https://user-images.githubusercontent.com/42400406/121766719-adfc9580-cb86-11eb-893c-dd15daa43b95.png)
+![image](https://user-images.githubusercontent.com/42400406/121766902-a984ac80-cb87-11eb-9dc0-3c3561bfd0a3.png)
 
 As you can see, its takes 6 minutes and 53 seconds to scrape 421 problems. The program run time
 is expected to scale linearly with this baseline ratio of 1 problem per second.
