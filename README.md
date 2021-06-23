@@ -17,10 +17,11 @@ It is this problem that Historian attempts to solve.
 # Overview
 
 Historian is a Kattis webscraper built to reconstruct a user's score history
-over time (illustration below). For a video demo, click [here](https://www.loom.com/share/a97cd7d9ac94473aa41317424e5bfd7e).
+over time (illustration below).
 
 ![image](https://user-images.githubusercontent.com/42400406/121766091-2c0a6d80-cb82-11eb-8cdb-ca9970ab69b1.png)
 
+For a video demo, click [here](https://www.loom.com/share/a97cd7d9ac94473aa41317424e5bfd7e).
 Otherwise, here's how it works.
 
 Historian will log into Kattis on behalf of its user and determine which problems
