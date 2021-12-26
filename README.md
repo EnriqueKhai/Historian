@@ -9,7 +9,7 @@ create an account, solve algorithmic problems and earn points to climb the ranks
 That said, Kattis has neither an inbuilt feature nor an API that allows users to
 visualise their score change (i.e. progress) over time.
 
-It is this problem that Historian attempts to solve.
+It is this problem that [Historian](https://github.com/EnriqueKhai/Historian) attempts to solve.
 
 # Table of Contents
 
