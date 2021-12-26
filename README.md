@@ -1,4 +1,4 @@
-# Kattis Webscraper
+# Table of Contents
 
 - [Introduction](#introduction)
 - [Overview](#overview)
