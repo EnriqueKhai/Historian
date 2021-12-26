@@ -1,3 +1,11 @@
+# Kattis Webscraper
+
+Hello friends, Historian is a passion project of mine built by and for Kattis
+grinders! Having spent a long time solving many questions on Kattis, I
+was always dismayed at them not having a score history chart like CodeForces.
+
+One day, I decided enough was enough and set out to build it myself!
+
 # Table of Contents
 
 - [Introduction](#introduction)
