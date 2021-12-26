@@ -1,22 +1,5 @@
 # Kattis Webscraper
 
-Hello friends, Historian is a passion project of mine built by and for Kattis
-grinders!
-
-Having spent a long time solving many questions on Kattis, I
-was always dismayed at them not having a score history chart like CodeForces.
-
-One day, I decided enough was enough and set out to build it myself!
-
-# Table of Contents
-
-- [Introduction](#introduction)
-- [Overview](#overview)
-- [Installation](#installation)
-- [For non-NUS users](#for-non-nus-users)
-
-# Introduction
-
 ![image](https://user-images.githubusercontent.com/42400406/126765162-2f70b87e-6323-477d-ae59-09330b5e6f57.png)
 
 > Image by [Ivo Rainha](https://unsplash.com/@ivoafr)
@@ -27,6 +10,12 @@ That said, Kattis has neither an inbuilt feature nor an API that allows users to
 visualise their score change (i.e. progress) over time.
 
 It is this problem that Historian attempts to solve.
+
+# Table of Contents
+
+- [Overview](#overview)
+- [Installation](#installation)
+- [For non-NUS users](#for-non-nus-users)
 
 # Overview
 
