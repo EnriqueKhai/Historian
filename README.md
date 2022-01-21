@@ -1,4 +1,4 @@
-# Kattis Webscraper
+# Kattis Web Scraper
 
 ![image](https://user-images.githubusercontent.com/42400406/126765162-2f70b87e-6323-477d-ae59-09330b5e6f57.png)
 
@@ -19,7 +19,7 @@ It is this problem that [Historian](https://github.com/EnriqueKhai/Historian) at
 
 # Overview
 
-Historian is a Kattis webscraper built to reconstruct a user's score history
+Historian is a Kattis web scraper built to reconstruct a user's score history
 over time (illustration below).
 
 ![image](https://user-images.githubusercontent.com/42400406/121766091-2c0a6d80-cb82-11eb-8cdb-ca9970ab69b1.png)
